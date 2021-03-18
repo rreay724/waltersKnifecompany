@@ -16,7 +16,7 @@
 .knife:hover {
   transition: 300ms transform ease-in;
   transform: scale(1.03);
-  box-shadow: 2px 4px 4px 4px rgba(103, 103, 103, 0.468);
+  box-shadow: 3px 5px 5px 5px rgba(103, 103, 103, 0.468);
 }
 
 .knife > img {
