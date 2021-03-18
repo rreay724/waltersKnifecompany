@@ -19,7 +19,7 @@ const knifeData = [
   {
     id: 1,
     title: "O'Noodles Special",
-    price: 120.99,
+    price: 69.69,
     image: image3,
   },
 ];
