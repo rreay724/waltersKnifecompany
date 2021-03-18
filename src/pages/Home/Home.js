@@ -16,7 +16,7 @@ function Home() {
           <Carousel
             autoPlay={true}
             infiniteLoop={true}
-            interval={4000}
+            interval={3000}
             centerMode={true}
             centerSlidePercentage={60}
             showThumbs={false}
