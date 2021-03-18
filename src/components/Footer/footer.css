@@ -3,10 +3,9 @@
   text-align: center;
   background-color: gray;
   color: white;
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
-  overflow: hidden;
   height: 100px;
 }
 
@@ -19,6 +18,7 @@
 .footerItem {
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 30px;
 }
 
 .footerItem > a {
