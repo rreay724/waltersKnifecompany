@@ -1,12 +1,6 @@
 import "./App.css";
-import {
-  Header,
-  Footer,
-  Info,
-  Home,
-  Contact,
-  Knives,
-} from "./components/index";
+import { Header, Footer } from "./components/index";
+import { Info, Home, Contact, Knives } from "./pages/index";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {

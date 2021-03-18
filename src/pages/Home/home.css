@@ -2,6 +2,57 @@
   min-height: 1050px;
 }
 
+.homeMiddle {
+  padding: 20px 35px;
+}
+
+.homeBottom {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.homeRow {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 20px;
+}
+
+.homeText {
+  background-color: rgb(67, 67, 67);
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+.featured {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 35%;
+  border-bottom: 3px solid white;
+}
+
+.homeText > h2 {
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
 .carousel .control-arrow,
 .carousel.carousel-slider .control-arrow {
   -webkit-transition: all 0.25s ease-in;
