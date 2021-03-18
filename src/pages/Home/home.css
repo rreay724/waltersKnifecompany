@@ -22,6 +22,12 @@
   padding-top: 20px;
 }
 
+@media (max-width: 500px) {
+  .homeRow {
+    flex-direction: column;
+  }
+}
+
 .homeText {
   /* background-color: rgb(67, 67, 67); */
   color: white;
