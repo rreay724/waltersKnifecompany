@@ -9,6 +9,20 @@
   height: 80px;
 }
 
+.headerTitle {
+  color: white;
+}
+
+.headerCompanyContainer {
+  display: flex;
+}
+
+.headerCompanyContainer > img {
+  height: 30px;
+  width: 30px;
+  padding: 15px;
+}
+
 .nav-options {
   display: flex;
   justify-content: space-between;

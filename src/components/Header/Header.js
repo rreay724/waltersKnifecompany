@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ReactComponent as CloseMenu } from "../../assets/x.svg";
 import { ReactComponent as MenuIcon } from "../../assets/menu.svg";
 import "./header.css";
+import logo from "../../images/logo.png";
 
 function Header() {
   const [click, setClick] = useState(false);
@@ -9,6 +10,10 @@ function Header() {
   const closeMobileMenu = () => setClick(false);
   return (
     <div className="header">
+      <div className="headerCompanyContainer">
+        <img src={logo} />
+        <h2 className="headerTitle">Walters Knife Co.</h2>
+      </div>
       <ul className={click ? "nav-options active" : "nav-options"}>
         <li className="option" onClick={closeMobileMenu}>
           <a href="/">HOME</a>
