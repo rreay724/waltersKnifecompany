@@ -14,7 +14,7 @@ import image3 from "../../images/knife3.jpeg";
 function Home() {
   return (
     <div className="home">
-      <div className="spacing"></div>
+      {/* <div className="spacing"></div> */}
       <div className="homeCarousel">
         <div className="homeTop">
           {/* <Carousel
