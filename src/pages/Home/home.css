@@ -62,3 +62,7 @@
   font-weight: bolder;
   font-size: 35px;
 }
+
+.carousel {
+  z-index: 1;
+}

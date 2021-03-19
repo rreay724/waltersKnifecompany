@@ -81,6 +81,7 @@
   .nav-options {
     display: flex;
     width: 100%;
+    z-index: 1;
     height: 350px;
     position: absolute;
     top: 80px;
@@ -96,9 +97,12 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-    color: black;
-
+    color: white;
+    z-index: 100;
+    text-align: inherit;
+    background-color: rgba(0, 0, 0, 0.66);
     align-content: center;
+    margin: auto;
     padding-left: 0px;
   }
 
@@ -116,7 +120,7 @@
   }
 
   .option > a {
-    color: black;
+    color: white;
     cursor: pointer;
   }
   .sign-up {
