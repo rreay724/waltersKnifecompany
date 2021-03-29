@@ -21,7 +21,16 @@
   padding-right: 20px;
 }
 
+.footerItem:hover {
+  transition: 300ms transform ease-in;
+  transform: scale(1.1);
+}
+
 .footerItem > a {
   cursor: pointer;
   color: white;
+}
+
+.footerItem > a:hover {
+  color: rgb(211, 211, 211);
 }
