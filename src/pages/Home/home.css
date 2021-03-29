@@ -65,4 +65,10 @@
 
 .carousel {
   z-index: 1;
+  width: 80%;
+  margin: auto;
+}
+
+.space {
+  height: 50px;
 }

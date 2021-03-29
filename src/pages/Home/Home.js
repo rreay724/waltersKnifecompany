@@ -15,26 +15,11 @@ function Home() {
   return (
     <div className="home">
       {/* <div className="spacing"></div> */}
+
       <div className="homeCarousel">
+        <div class="space" />
+
         <div className="homeTop">
-          {/* <Carousel
-            autoPlay={true}
-            infiniteLoop={true}
-            interval={3000}
-            centerMode={true}
-            centerSlidePercentage={55}
-            showThumbs={false}
-          >
-            <div>
-              <img src={image1} />
-            </div>
-            <div>
-              <img src={image2} />
-            </div>
-            <div>
-              <img src={image3} />
-            </div>
-          </Carousel> */}
           <Carousel fade interval={4000}>
             <Carousel.Item>
               <img
