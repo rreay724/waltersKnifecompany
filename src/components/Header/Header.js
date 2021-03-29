@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className="header">
       <div className="headerCompanyContainer">
-        <img src={logo} />
+        <img className="logo" src={logo} />
         <h2 className="headerTitle">Walters Knife Co.</h2>
       </div>
       <ul className={click ? "nav-options active" : "nav-options"}>
