@@ -1,6 +1,6 @@
 import React from "react";
-import axios from "axios";
 import "./contact.css";
+import { ContactForm } from "../../components/index";
 
 class Contact extends React.Component {
   constructor(props) {
@@ -14,7 +14,11 @@ class Contact extends React.Component {
   }
 
   render() {
-    return <h1>Contact Page</h1>;
+    return (
+      <h1>
+        <ContactForm />
+      </h1>
+    );
   }
 }
 

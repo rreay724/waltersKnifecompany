@@ -1,4 +1,4 @@
-export { default as Info } from "../pages/Info/Info";
-export { default as Home } from "../pages/Home/Home";
-export { default as Knives } from "../pages/Knives/Knives";
-export { default as Contact } from "../pages/Contact/Contact";
+export { default as Info } from "../pages/Info/info";
+export { default as Home } from "../pages/Home/home";
+export { default as Knives } from "../pages/Knives/knives";
+export { default as Contact } from "../pages/Contact/contact";
